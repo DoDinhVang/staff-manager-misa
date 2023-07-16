@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+* {
+  font-size: 13px;
+  font-family: MISA Fonts;
+}
+@font-face {
+  font-family: MISA Fonts;
+  src: url("../fonts/notosans-regular.2cb88a13.woff2");
+}
+:root {
+  --color-primary: #007aff;
+  --color-hover: #66afff;
+  --color-focus: #004999;
+  --color-border-default: #e0e0e0;
+}
