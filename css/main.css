@@ -1,9 +1,11 @@
+@import url("./layout.css");
 body {
   margin: 0;
 }
 * {
   font-size: 13px;
   font-family: MISA Fonts;
+  box-sizing: border-box;
 }
 @font-face {
   font-family: MISA Fonts;
