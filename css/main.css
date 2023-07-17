@@ -1,4 +1,12 @@
 @import url("./layout.css");
+:root {
+  --color-primary: #007aff;
+  --color-hover: #66afff;
+  --color-focus: #004999;
+  --color-border-default: #e0e0e0;
+  --color-text-default: #666666;
+  --color-text-heading: #020A01;
+}
 body {
   margin: 0;
 }
@@ -6,14 +14,15 @@ body {
   font-size: 13px;
   font-family: MISA Fonts;
   box-sizing: border-box;
+  color: var(--color-text-default);
 }
 @font-face {
   font-family: MISA Fonts;
   src: url("../fonts/notosans-regular.2cb88a13.woff2");
 }
-:root {
-  --color-primary: #007aff;
-  --color-hover: #66afff;
-  --color-focus: #004999;
-  --color-border-default: #e0e0e0;
+
+h1{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text-heading)
 }
