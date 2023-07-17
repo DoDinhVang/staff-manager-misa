@@ -1,28 +1,40 @@
 @import url("./layout.css");
+@import url("./sidenav.css");
+@import url("./header.css");
+@import url("./button.css");
+@import url("./pageContent.css");
+@import url("./input.css");
+@import url("./table.css");
+@import url("./pagination.css");
+@import url("./select.css");
+@import url("./staffManager.css");
 :root {
-  --color-primary: #007aff;
-  --color-hover: #66afff;
-  --color-focus: #004999;
-  --color-border-default: #e0e0e0;
+  --color-primary: #50b83c;
+  --color-hover: #57c841;
+  --color-focus: #118044;
+  --color-border-default: #E0E1E4;
   --color-text-default: #666666;
-  --color-text-heading: #020A01;
+  --color-text-heading: #000000;
 }
+
 body {
-  margin: 0;
-}
-* {
   font-size: 13px;
   font-family: MISA Fonts;
-  box-sizing: border-box;
   color: var(--color-text-default);
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 @font-face {
   font-family: MISA Fonts;
   src: url("../fonts/notosans-regular.2cb88a13.woff2");
 }
 
-h1{
+h1 {
   font-size: 18px;
   font-weight: 500;
-  color: var(--color-text-heading)
+  color: var(--color-text-heading);
 }

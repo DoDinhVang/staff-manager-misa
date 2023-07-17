@@ -1,0 +1,40 @@
+.pagination,
+.pagination-body,
+.pagination-size-changer,
+.pagination-links {
+  display: flex;
+  align-items: center;
+}
+.pagination {
+  padding: 20px 16px;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #f5f5f5;
+  color: var(--color-text-heading);
+}
+.pagination-size-changer {
+  margin-right: 16px;
+  column-gap: 63px;
+}
+.pagination-size-changer select {
+  cursor: pointer;
+}
+.pagination-records {
+  margin-right: 22px;
+}
+.pagination-links {
+  cursor: pointer;
+  column-gap: 8px;
+}
+.pagination-links .pagination-prev,
+.pagination-links .pagination-next {
+  height: 20px;
+  width: 20px;
+}
+.pagination-links .pagination-prev {
+  background: url("../assets/images/Sprites.64af8f61.svg") no-repeat -36px -406px;
+}
+.pagination-links .pagination-next {
+  background: url("../assets/images/Sprites.64af8f61.svg") no-repeat -84px -406px;
+}

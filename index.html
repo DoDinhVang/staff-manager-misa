@@ -27,13 +27,9 @@
         <div class="logo"></div>
       </div>
       <div class="nav-list">
-        <div class="nav-item">
-          <div class="nav__icon"></div>
-          <div class="nav__text">Trang chủ</div>
-        </div>
         <div class="nav-item nav-item--active">
           <div class="nav__icon"></div>
-          <div class="nav__text">Trang chủ</div>
+          <div class="nav__text">Quản lý nhân viên</div>
         </div>
       </div>
       <div class="nav-action">
@@ -41,11 +37,103 @@
         <div class="nav__text">Thu gọn</div>
       </div>
     </div>
-    <div class="container">
-      <div class="container__title">
-        <h1>Nhân viên</h1>
-        <button>Thêm mới nhân viên</button>
+    <div class="page-content">
+      <div class="staff-manager-container">
+        <div class="staff-manager-container__title">
+          <h1>Nhân viên</h1>
+          <button class="btn">Thêm mới nhân viên</button>
+        </div>
+        <div class="staff-manager-container__table">
+          <div class="table-header">
+            <div class="input-icon-swapper">
+              <input
+                class="input-default"
+                placeholder="tìm theo mã hoặc tên nhân viên"
+              />
+              <div class="input-icon"></div>
+            </div>
+            <div class="header__reset-data"></div>
+          </div>
+          <div class="table-container">
+            <table class="table-default">
+              <thead>
+                <tr>
+                  <th>Full name</th>
+                  <th>Email</th>
+                  <th>Address</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+                <tr>
+                  <td>Ernst Handel</td>
+                  <td>Roland Mendel</td>
+                  <td>Austria</td>
+                </tr>
+                <tr>
+                  <td>Island Trading</td>
+                  <td>Helen Bennett</td>
+                  <td>UK</td>
+                </tr>
+                <tr>
+                  <td>Laughing Bacchus Winecellars</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>Canada</td>
+                </tr>
+                <tr>
+                  <td>Magazzini Alimentari Riuniti</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>Italy</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="pagination">
+              <div class="total-items">Tổng : <span>4</span></div>
+              <div class="pagination-body">
+                <div class="pagination-size-changer">
+                  <span> record / page</span>
+                  <div class="select-wrapper">
+                    <div
+                      id="dropbtn"
+                      class="select-wrapper__input dropbtn"
+                    ></div>
+                    <div class="select-wrapper__icon">
+                      <div class="dropdown-icon"></div>
+                    </div>
+                    <ul
+                      id="myDropdown"
+                      class="select-wrapper__list dropdown-content"
+                    >
+                      <li class="selected" value="1">mot</li>
+                      <li value="2">hai</li>
+                      <li value="3">ba</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="pagination-records">1-9 records</div>
+                <div class="pagination-links">
+                  <div class="pagination-prev">
+                    <!-- <i class="fa fa-angle-left"></i> -->
+                  </div>
+                  <div class="pagination-next">
+                    <!-- <i class="fa fa-angle-right"></i> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>

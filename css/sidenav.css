@@ -1,52 +1,4 @@
-.header {
-  height: 56px;
-  width: calc(100vw - 200px);
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 200px;
-  padding: 0 16px;
-  font-size: 14px;
-  font-weight: 500;
-}
-.header__left {
-  display: flex;
-  align-items: center;
-  column-gap: 36px;
-}
-.header__menu {
-  height: 24px;
-  width: 24px;
-  background: url("../assets/images/Sprites.64af8f61.svg") no-repeat -843px -29px;
-  cursor: pointer;
-}
-.header__right {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  column-gap: 24px;
-}
-
-.header__noti {
-  background: url("../assets/images/Sprites.64af8f61.svg") no-repeat -788px -30px;
-  height: 24px;
-  width: 24px;
-  cursor: pointer;
-}
-.header__dropdown {
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
-}
-.header__avatar {
-  height: 32px;
-  width: 32px;
-  background: url("../assets/images/Sprites.64af8f61.svg") no-repeat -352px -894px;
-  border-radius: 50%;
-  cursor: pointer;
-}
+/*sidenav css*/
 .sidebar {
   width: 200px;
   height: 100vh;
@@ -127,19 +79,4 @@
 .nav-action .nav__icon {
   background: url("../assets/images/Sprites.64af8f61.svg") no-repeat 1.45%
     21.45%;
-}
-.container {
-  height: calc(100vh - 56px);
-  width: calc(100vw - 200px);
-  position: absolute;
-  left: 200px;
-  top: 56px;
-  background-color: #e5e5e5;
-  display: inline-block;
-  padding: 16px;
-}
-.container__title{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
 }

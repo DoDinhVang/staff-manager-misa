@@ -1,0 +1,23 @@
+.btn {
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  min-width: 80px;
+  padding: 0 16px;
+  height: 36px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--color-hover);
+}
+.btn:active {
+  background-color: var(--color-focus);
+}
+.btn:disabled {
+  opacity: 0.56;
+  pointer-events: none;
+}

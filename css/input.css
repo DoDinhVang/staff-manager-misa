@@ -1,0 +1,37 @@
+.input-default {
+  border: 1px solid var(--color-border-default);
+  outline: none;
+  border-radius: 4px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  min-width: 260px;
+}
+.input-default:read-only {
+  background-color: #e0e0e0;
+}
+.input-default:focus {
+  border-color: var(--color-focus);
+}
+.input-default:hover {
+  border-color: var(--color-hover);
+}
+/*input widht icon*/
+.input-icon-swapper {
+  position: relative;
+}
+.input-icon-swapper .input-default {
+  padding-right: 36px;
+}
+.input-icon-swapper .input-icon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+  background: url("../assets/images/Sprites.64af8f61.svg") no-repeat 15.808%
+    7.831%;
+}
